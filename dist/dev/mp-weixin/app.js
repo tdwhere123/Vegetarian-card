@@ -11,7 +11,7 @@ const _sfc_main = {
   onLaunch() {
     if (common_vendor.wx$1.cloud) {
       common_vendor.wx$1.cloud.init({
-        env: "cloud1-2gjwqg9o320f71b5",
+        env: "",
         // ⚠️ 请替换为你的云开发环境 ID
         traceUser: true
       });
