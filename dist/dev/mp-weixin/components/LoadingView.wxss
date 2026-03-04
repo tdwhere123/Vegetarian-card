@@ -1,0 +1,27 @@
+
+.loading-overlay.data-v-e4c2a2d9 {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(247, 243, 234, 0.96);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.anim.data-v-e4c2a2d9 { display: flex; gap: 20rpx; margin-bottom: 30rpx;
+}
+.veg.data-v-e4c2a2d9 { font-size: 64rpx; animation: bounce-e4c2a2d9 1.2s infinite ease-in-out;
+}
+.veg2.data-v-e4c2a2d9 { animation-delay: 0.2s;
+}
+.veg3.data-v-e4c2a2d9 { animation-delay: 0.4s;
+}
+@keyframes bounce-e4c2a2d9 {
+0%, 100% { transform: translateY(0)
+}
+50% { transform: translateY(-18rpx)
+}
+}
+.msg.data-v-e4c2a2d9 { font-size: 30rpx; color: #6d6d6d;
+}

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "蔬蔬灵感集",
+  "navigationBarBackgroundColor": "#fff5e6",
+  "navigationBarTextStyle": "black",
+  "componentPlaceholder": {
+    "custom-tab-bar": "view",
+    "magic-particles": "view"
+  },
+  "usingComponents": {
+    "custom-tab-bar": "../../components/CustomTabBar",
+    "magic-particles": "../../components/MagicParticles",
+    "loading-view": "../../components/LoadingView"
+  }
+}

@@ -1,0 +1,28 @@
+
+.particles-container.data-v-08d54884 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1; /* Above background, below content */
+  overflow: hidden;
+}
+.particle.data-v-08d54884 {
+  position: absolute;
+  animation: float-08d54884 linear infinite;
+  opacity: 0;
+}
+@keyframes float-08d54884 {
+0% { transform: translateY(0) rotate(0deg); opacity: 0;
+}
+20% { opacity: 0.8;
+}
+50% { opacity: 0.6;
+}
+80% { opacity: 0.8;
+}
+100% { transform: translateY(-150px) rotate(360deg); opacity: 0;
+}
+}

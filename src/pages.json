@@ -1,0 +1,63 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "蔬蔬灵感集",
+        "navigationBarBackgroundColor": "#fff5e6",
+        "navigationBarTextStyle": "black",
+        "componentPlaceholder": {
+          "custom-tab-bar": "view",
+          "magic-particles": "view"
+        }
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationBarTitleText": "灵感卡片",
+        "navigationBarBackgroundColor": "#fff5e6",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/collection/collection",
+      "style": {
+        "navigationBarTitleText": "我的卡册",
+        "navigationBarBackgroundColor": "#fff5e6",
+        "navigationBarTextStyle": "black",
+        "componentPlaceholder": {
+          "custom-tab-bar": "view"
+        }
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "navigationBarBackgroundColor": "#fff5e6",
+        "navigationBarTextStyle": "black",
+        "componentPlaceholder": {
+          "custom-tab-bar": "view"
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "蔬蔬灵感集",
+    "navigationBarBackgroundColor": "#fff5e6",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f3ea"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff9f43",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "首页" },
+      { "pagePath": "pages/collection/collection", "text": "我的卡册" },
+      { "pagePath": "pages/profile/profile", "text": "个人中心" }
+    ]
+  }
+}

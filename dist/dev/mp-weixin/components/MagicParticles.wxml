@@ -1,0 +1,1 @@
+<view class="particles-container data-v-08d54884"><view wx:for="{{a}}" wx:for-item="p" wx:key="b" class="particle data-v-08d54884" style="{{p.c}}">{{p.a}}</view></view>
