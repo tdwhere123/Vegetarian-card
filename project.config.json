@@ -31,8 +31,9 @@
     "ignore": [],
     "include": []
   },
-  "appid": "wxeb52d1a2fd26a38f",
+  "appid": "",
   "editorSetting": {},
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
   "libVersion": "3.12.0"
+
 }
